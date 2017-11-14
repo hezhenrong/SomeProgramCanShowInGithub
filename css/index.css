@@ -14,7 +14,7 @@ body{
 	height: 100%;
 }
 .zr_main{
-	width: 50%;
+	/*width: 50%;*/
 	margin: 5% auto;
 }
 .zr_main .zr_header h3{
@@ -24,7 +24,8 @@ body{
 	margin-top: 5%;
 }
 .zr_main .zr_container ul li{
-	width: 100%;
+	width: 90%;
+	margin-left: 5%;
 	height: 2rem;
 	border: 0.05rem solid #ccc;
 	display: flex;
