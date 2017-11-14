@@ -1,0 +1,38 @@
+/*公共样式*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 20px;
+	color: #3d3d3d;
+	text-decoration: none;
+}
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+}
+.zr_main{
+	width: 50%;
+	margin: 5% auto;
+}
+.zr_main .zr_header h3{
+	text-align: center;
+}
+.zr_main .zr_container{
+	margin-top: 5%;
+}
+.zr_main .zr_container ul li{
+	width: 100%;
+	height: 2rem;
+	border: 0.05rem solid #ccc;
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+	padding: 0 0.5rem;
+}
+.zr_main .zr_container ul li:hover{
+	background: #f1f4f1;
+	border: 0.05rem solid #b9d5f5;
+}
